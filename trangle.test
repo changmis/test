@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+int get_size(){
+	printf("크기:");
+	int size = 0;
+	scanf("%d",&size);
+	return size;
+}
+void get_sum(){
+
+}
+void draw_trangle(int size){
+	if (size ==0) return;
+	for (int i = 0 ; i < size; i++)
+		printf("*");
+	printf("\n");
+	do_draw_triangle(size -1, max width);
+}
+
+void draw_rect(){
+int size=.get_size();
+do_draw_triangle(size);
+}
+
+void show_menu(){
+	printf("1.삼각형그리기\n");
+	printf("2.사각형그리기\n");
+	printf("3.합구하기\n");
+	printf("입력:");
+}
+int get_user input(){
+	show_menu();
+	int input = 0;
+	scanf("%d",input);
+	return input;
+}
+
+void solve_question(){
+	int loop =1;
+void solve_question(){
+	int input = get_user_input();
+	switch(input){
+		case 1;
+			break;
+		case 2;
+			break;
+		case3;
+			break;
+	}
+}
+int main(int argc, char*argc[])
+{
+	while(i){
+
+	solve_question();	
+	return 0;
+}

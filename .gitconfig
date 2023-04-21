@@ -1,0 +1,7 @@
+[user]
+	name = changmis
+	email = lkmin741@naver.com
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
